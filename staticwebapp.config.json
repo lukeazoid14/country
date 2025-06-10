@@ -1,8 +1,8 @@
 {
-    "routes": [
-        {
-            "route":"/",
-            "rewrite": "./signup.html"
-        }
-    ]
+  "routes": [
+    {
+      "route": "/",
+      "rewrite": "/signup.html"
+    }
+  ]
 }
