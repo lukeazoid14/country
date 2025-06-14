@@ -3,40 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome</title>
+    <link rel="stylesheet" href="styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 80px;
-        }
-        .button-group {
-            margin-top: 30px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 12px 28px;
-            margin: 0 12px;
-            font-size: 1rem;
-            color: #fff;
-            background-color: #0078d4;
-            border: none;
-            border-radius: 4px;
-            text-decoration: none;
-            cursor: pointer;
-            transition: background 0.2s;
-        }
-        .btn:hover {
-            background-color: #005fa3;
-        }
+        } 
     </style>
 </head>
 <body>
     <h1>Welcome to the Country Page!</h1>
     <p>Please sign up or sign in to continue.</p>
     <div class="button-group">
-        <a href="signup.html" class="btn">Sign Up</a>
-        <a href="signin.html" class="btn">Sign In</a>
+        <button onclick="window.location.href='signup.html'" class="btn">Sign Up</button>
+        <button href="signin.html" class="btn">Sign In</button>
     </div>
 </body>
 </html>
